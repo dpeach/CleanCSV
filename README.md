@@ -1,8 +1,10 @@
 # CleanCSV
-This is a python3 program that cleans up CSV files to include just the columns you need.
+This is a python3 program that cleans up CSV files to include just the columns you need. It also has a way to rename columns.
 
 # Backstory
-We regularly download a PayPal CSV to use in the office. It includes many columns that we don't need. It also has some strange column names that I would like to shorten. This script does both.
+We regularly download a PayPal CSV to use in our office. It includes many columns that we don't need. It also has some strange column names that I would like to shorten. This script does both.
+
+Something like this is helpful when you are regularly dealing with the need to change a particular CSV/spreadsheet file. Maybe on the scale of quarterly or more often. It probably isn't that helpful for something you deal with just a couple of times a year.
 
 I used ChatGPT to help build this. I think this is my first successful collaboration with ChatGPT. I knew enough about what I wanted to do that I could create appropriate prompts for this program.
 
@@ -32,10 +34,10 @@ I will also upload a version that can be run on Windows and will generate a Save
 
 # Requirements
 Libraries that will be used (and may be automatically installed) are:
-pandas
-sys
-tkinter
-argparse
-os
+- pandas
+- sys
+- tkinter
+- argparse
+- os
 
-This is dependent on which version you use.
+This is dependent on which version of the program you use.
