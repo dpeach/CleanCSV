@@ -41,3 +41,16 @@ Libraries that will be used (and may be automatically installed) are:
 - os
 
 This is dependent on which version of the program you use.
+
+# Versions
+There are 3 versions of the program that I have uploaded. You run them with ``` python SCRIPTNAME INPUTFILE.csv ```
+## cleanpaypal.py
+This is the version I would use on Linux. It outputs to a file in the current working directory.
+
+## cleanpaypalauto.py
+This is a Windows version. It will save to a consistent file on the desktop. That can be changed in the script. It will overwrite the same file each time.
+
+## cleanpaypalsaveas.py
+This is also a Windows version. This one gives a Save As dialog box.
+
+# .bat File
