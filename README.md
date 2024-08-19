@@ -54,3 +54,9 @@ This is a Windows version. It will save to a consistent file on the desktop. Tha
 This is also a Windows version. This one gives a Save As dialog box.
 
 # .bat File
+Here is the batch file that can be put on your desktop to drag and drop your csv file onto.
+
+```
+@echo off
+python path\to\cleanpaypalXXX.py %1
+```
