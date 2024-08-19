@@ -161,7 +161,8 @@ if __name__ == "__main__":
 ```
 
 Then it instructed me to make this .bat file:
-``` @echo off
+```
+@echo off
 python path\to\modify_columns.py %1
 pause
 ```
