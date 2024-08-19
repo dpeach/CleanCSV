@@ -44,6 +44,7 @@ This is dependent on which version of the program you use.
 
 # Versions
 There are 3 versions of the program that I have uploaded. You run them with ``` python SCRIPTNAME INPUTFILE.csv ```
+
 ## cleanpaypal.py
 This is the version I would use on Linux. It outputs to a file in the current working directory.
 
@@ -54,7 +55,7 @@ This is a Windows version. It will save to a consistent file on the desktop. Tha
 This is also a Windows version. This one gives a Save As dialog box.
 
 # .bat File
-Here is the batch file that can be put on your desktop to drag and drop your csv file onto.
+Here is the batch file that can be put on your desktop to drag and drop your csv file onto. There is a bit more information about this [in the prompts file](prompts_used.md).
 
 ```
 @echo off
